@@ -35,13 +35,13 @@ function Education() {
             <div className="edu-header">
               <div>
                 <h3>Bachelor of Technology (B.Tech)</h3>
-                <p className="edu-college">Computer Science & Engineering — ITM University, Gwalior</p>
+                <p className="edu-college">Computer Science & Engineering — Shri Ram Group College, Muzafarnagar</p>
               </div>
-              <span className="edu-badge">Current</span>
+              <span className="edu-badge completed">Completed</span>
             </div>
-            <p className="edu-year">📅 2023 – 2027</p>
+            <p className="edu-year">📅 2022 – 2026</p>
             <p className="edu-desc">
-              Currently pursuing B.Tech in Computer Science & Engineering with
+              Completed My B.Tech in Computer Science & Engineering with
               strong interest in Full Stack Development. Gaining solid knowledge
               of Data Structures, Algorithms, DBMS, OS and MERN Stack.
             </p>
@@ -64,11 +64,11 @@ function Education() {
             <div className="edu-header">
               <div>
                 <h3>Higher Secondary (12th)</h3>
-                <p className="edu-college">Kiddys Corner Higher Secondary School</p>
+                <p className="edu-college">Lala IndraPrakash Janta Inter College</p>
               </div>
               <span className="edu-badge completed">Completed</span>
             </div>
-            <p className="edu-year">📅 Passed in 2023</p>
+            <p className="edu-year">📅 Passed in 2022</p>
             <p className="edu-desc">
               Completed higher secondary education with PCM stream,
               building strong analytical and problem-solving foundation.
@@ -81,7 +81,35 @@ function Education() {
           </div>
         </div>
 
+
+         {/* Connector */}
+        <div className="timeline-connector"></div>
+
+        {/* Card 2 */}
+        <div className="edu-card">
+          <div className="edu-icon">📚</div>
+          <div className="edu-content">
+            <div className="edu-header">
+              <div>
+                <h3>Higher Secondary (10th)</h3>
+                <p className="edu-college">Lala IndraPrakash Janta Inter College</p>
+              </div>
+              <span className="edu-badge completed">Completed</span>
+            </div>
+            <p className="edu-year">📅 Passed in 2020</p>
+            <p className="edu-desc">
+              Completed higher secondary education with PCM stream,
+              building strong analytical and problem-solving foundation.
+            </p>
+            <div className="edu-tags">
+              <span>Maths</span>
+              <span>Science</span>
+              <span>English</span>
+            </div>
+          </div>
+
       </div>
+         </div>
     </section>
   );
 }

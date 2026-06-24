@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import contactImg from "../assets/contact.jpeg";
+import contactImg from "../assets/profile.jpg";
 import "./Contact.css";
 
 function Contact({ profile }) {
@@ -40,7 +40,7 @@ function Contact({ profile }) {
               <img src={contactImg} alt="Pushkar Dixit" />
             </div>
             <div className="contact-photo-glow"></div>
-            <h3>Pushkar Dixit</h3>
+            <h3>Hardik Garg</h3>
             <p className="contact-role">MERN Stack Developer</p>
             <div className="contact-status">
               <span className="status-dot"></span> Available for Work
@@ -53,30 +53,30 @@ function Contact({ profile }) {
               <span className="detail-icon">📧</span>
               <div>
                 <p className="detail-label">Email</p>
-                <p className="detail-value">pushkardixit561@gmail.com</p>
+                <p className="detail-value">hardikkumargarg24@gmail.com</p>
               </div>
             </div>
             <div className="contact-detail-item">
               <span className="detail-icon">📱</span>
               <div>
                 <p className="detail-label">Phone</p>
-                <p className="detail-value">+91-8641075968</p>
+                <p className="detail-value">+91-9897226404</p>
               </div>
             </div>
             <div className="contact-detail-item">
               <span className="detail-icon">📍</span>
               <div>
                 <p className="detail-label">Location</p>
-                <p className="detail-value">Gwalior, India</p>
+                <p className="detail-value">UP, India</p>
               </div>
             </div>
 
             {/* Social Links */}
             <div className="contact-socials">
-              <a href="https://github.com/Pushkar-DIXIT" target="_blank" rel="noreferrer" className="social-btn github">
+              <a href="https://github.com/HardikGarg2004" target="_blank" rel="noreferrer" className="social-btn github">
                 🐙 GitHub
               </a>
-              <a href="https://www.linkedin.com/in/pushkar-dixit-502bb4327" target="_blank" rel="noreferrer" className="social-btn linkedin">
+              <a href="https://www.linkedin.com/in/hardik-garg251305" target="_blank" rel="noreferrer" className="social-btn linkedin">
                 💼 LinkedIn
               </a>
               <a href={"mailto:" + profile.email} className="social-btn email">
@@ -92,13 +92,13 @@ function Contact({ profile }) {
           <h3 className="form-title">Send Me a Message</h3>
           <form
             className="contact-form"
-            action="https://formsubmit.co/pushkardixit561@gmail.com"
+            action="https://formsubmit.co/hardikkumargarg24@gmail.com"
             method="POST"
           >
             <input type="hidden" name="_captcha" value="false" />
             <input type="hidden" name="_subject" value="New Portfolio Message 🚀" />
             <input type="hidden" name="_template" value="table" />
-            <input type="hidden" name="_next" value="https://pushkardixit-portfolio.vercel.app/" />
+            {/* <input type="hidden" name="_next" value="https://pushkardixit-portfolio.vercel.app/" /> */}
             <input type="text" name="_honey" style={{ display: "none" }} />
 
             <div className="form-row">

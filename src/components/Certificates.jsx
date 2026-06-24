@@ -42,77 +42,30 @@ function Certificates() {
 
   const certificates = [
     {
-      title: "Java Full Stack Development",
-      issuer: "EduSkills",
-      date: "2024",
+      title: "Java With Dsa",
+      issuer: "Apna College",
+      date: "2025",
       badge: "💻",
       color: "#f89820",
-      img: require("../assets/javafull.jpg")
+      img: require("../assets/Delta.png")
     },
     {
-      title: "Salesforce Agentblazer Program",
-      issuer: "Salesforce",
+      title: "Web Development",
+      issuer: "Apna College",
       date: "2025",
       badge: "☁️",
       color: "#00A1E0",
-      img: require("../assets/salesforce.jpg")
+      img: require("../assets/Delta.png")
     },
     {
-      title: "Zscaler Zero Trust Associate",
-      issuer: "Zscaler",
+      title: "Workshop on IOT & Cyber Security:",
+      issuer: "SRGC",
       date: "2025",
       badge: "🔐",
       color: "#00BCD4",
-      img: require("../assets/zscaler.jpg")
+      img: require("../assets/Delta.png")
     },
-    {
-      title: "JavaScript via Spring Boot",
-      issuer: "Infosys Springboard",
-      date: "2024",
-      badge: "🟨",
-      color: "#F7DF1E",
-      img: require("../assets/infosysjavascript.jpg")
-    },
-    {
-      title: "Management Development Programme",
-      issuer: "NSIC Ltd. — Ministry of MSME, Govt. of India",
-      date: "2026",
-      badge: "🏛️",
-      color: "#34d399",
-      img: require("../assets/nsic.jpeg")
-    },
-    {
-      title: "MERN Stack Development",
-      issuer: "EduSkills",
-      date: "2025",
-      badge: "⚛️",
-      color: "#61DAFB",
-      img: require("../assets/mern.png")
-    },
-    {
-      title: "Juniper Networking Virtual Internship",
-      issuer: "Juniper Networks",
-      date: "2025",
-      badge: "🌐",
-      color: "#84cc16",
-      img: require("../assets/juniper.jpg")
-    },
-    {
-      title: "AI/ML Virtual Internship",
-      issuer: "Google Developer Experts",
-      date: "2024",
-      badge: "🤖",
-      color: "#4285F4",
-      img: require("../assets/aiml.jpg")
-    },
-    {
-      title: "C++ Programming Internship",
-      issuer: "ITM Gwalior",
-      date: "2023",
-      badge: "⚙️",
-      color: "#00599C",
-      img: require("../assets/c++.jpg")
-    }
+  
   ];
 
   return (

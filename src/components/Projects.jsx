@@ -20,50 +20,32 @@ function Projects() {
 
   const projects = [
     {
-      title: "Simon Game",
-      desc: "Browser-based Simon memory game with sound, levels, and restart logic.",
-      problem: "Users needed an interactive memory game to improve focus.",
-      solution: "Built with sound effects, progressive levels and clean restart logic.",
-      tech: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/PUSHKAR-DIXIT/simon-game",
+      title: "AI SaaS Exam Preparation Platform ",
+      desc: "AI-powered exam preparation platform with personalized learning, mock tests, analytics, and smart study recommendations.",
+      problem: "Students lack personalized guidance and efficient study plans, leading to ineffective exam preparation and lower performance.",
+      solution: "Personalized study plans, AI-based recommendations, and mock tests for effective exam preparation.",
+      tech: ["HTML", "CSS", "JavaScript","React","Node.js","Express.js", "MongoDB", "OpenAI/Gemini API"],
+      github: "https://github.com/HardikGarg2004/",
       img:require("../assets/simon.jpg")
     },
     {
-      title: "Complexity Analyzer",
-      desc: "A tool that explains algorithm time complexity with examples.",
-      problem: "Understanding time complexity is difficult for beginners.",
-      solution: "Created a tool that explains algorithm complexity with examples.",
-      tech: ["Java", "DSA"],
-      github: "https://github.com/PUSHKAR-DIXIT/Complexity-Analyzer",
-      img: require("../assets/codecomplexity.jpg")
+      title: "Wanderlust -Travel & Stay Booking Platform ",
+      desc: "Travel and stay booking platform for discovering, comparing, and reserving hotels, homestays, and travel experiences.",
+      problem: "Travelers face difficulty finding affordable, reliable, and convenient booking options in one place.",
+      solution: "Enables users to discover, compare, and book stays with an easy-to-use interface.",
+      tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Google Maps API"],
+      github: "https://github.com/HardikGarg2004/",
+      img: require("../assets/Airbnb.png")
     },
     {
-      title: "MERN Portfolio",
-      desc: "Full stack portfolio with MongoDB backend and admin control.",
-      problem: "Static portfolios don't scale or store dynamic data.",
-      solution: "Built a full MERN portfolio with MongoDB and admin control.",
-      tech: ["React", "Node.js", "Express", "MongoDB"],
+      title: "Zerodha Clone- A Full Stack Trading Platform ",
+      desc: "A full-stack trading platform inspired by Zerodha, enabling users to track markets, manage portfolios, and execute trades through an intuitive interface.",
+      problem: "Many trading platforms are complex and difficult for beginners, creating challenges in managing investments and accessing market data efficiently.",
+      solution: "Built a full-stack trading platform with real-time stock tracking, portfolio management, and secure authentication.",
+      tech: ["React", "Node.js", "Express", "MongoDB" , "JWT", "Git", "GitHub"],
       github: "https://github.com/your-github/mern-portfolio",
-      img: require("../assets/home.jpg")
+      img: require("../assets/ZerodhaProject.png")
     },
-    {
-      title: "Spotify Clone",
-      desc: "Responsive Spotify-inspired UI built with HTML & CSS.",
-      problem: "Learning frontend layout and UI design needs real-world practice.",
-      solution: "Built a responsive Spotify-inspired UI using HTML & CSS.",
-      tech: ["HTML", "CSS", "Responsive Design"],
-      github: "https://github.com/PUSHKAR-DIXIT/spotify-clone",
-      img: require("../assets/spotify.jpg")
-    },
-    {
-      title: "Cloud Cost Analyzer",
-      desc: "A tool to analyze and optimize cloud infrastructure costs.",
-      problem: "Cloud bills are hard to track and optimize for developers.",
-      solution: "Built an analyzer that breaks down cloud usage and suggests cost savings.",
-      tech: ["React", "Node.js", "AWS", "MongoDB"],
-      github: "https://github.com/PUSHKAR-DIXIT/cloud-cost-analyzer",
-      img: require("../assets/cloudanalyzer.jpg")
-    }
   ];
 
   const handleScroll = () => {

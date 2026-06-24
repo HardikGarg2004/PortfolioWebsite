@@ -26,7 +26,7 @@ function Home() {
 
       <div className="home-left">
         <p className="home-tag">👋 Welcome to my Portfolio</p>
-        <h1>Hi, I'm <span>Pushkar Dixit</span></h1>
+        <h1>Hi, I'm <span>Hardik Garg</span></h1>
         <h2>🎓 B.Tech CSE  &nbsp;|&nbsp; 💻 MERN Stack Developer</h2>
         <p className="home-desc">
           Passionate about building modern, fast and responsive web apps. 
@@ -35,7 +35,7 @@ function Home() {
 
         <div className="home-stats">
           <div className="stat">
-            <h3>10+</h3>
+            <h3>3+</h3>
             <p>Projects</p>
           </div>
           <div className="stat">

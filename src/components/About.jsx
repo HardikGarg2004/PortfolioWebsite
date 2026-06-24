@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import aboutImg from "../assets/about.jpg";
+import aboutImg from "../assets/profile.jpg";
 import "./About.css";
 
 function About() {
@@ -11,19 +11,22 @@ function About() {
       ([entry]) => {
         if (entry.isIntersecting) setVisible(true);
       },
-      { threshold: 0.2 }
+      { threshold: 0.2 },
     );
     if (sectionRef.current) observer.observe(sectionRef.current);
     return () => observer.disconnect();
   }, []);
 
   return (
-    <section id="about" className={"about" + (visible ? " show" : "")} ref={sectionRef}>
-
+    <section
+      id="about"
+      className={"about" + (visible ? " show" : "")}
+      ref={sectionRef}
+    >
       {/* LEFT - Image */}
       <div className="about-left">
         <div className="about-img-wrapper">
-          <img src={aboutImg} alt="About Pushkar" />
+          <img src={aboutImg} alt="About Hardik Garg" />
           <div className="about-img-glow"></div>
         </div>
 
@@ -33,7 +36,7 @@ function About() {
             <span className="card-icon">🎓</span>
             <div>
               <h4>Education</h4>
-              <p>B.Tech CSE — ITM College</p>
+              <p>B.Tech CSE — SRGC</p>
             </div>
           </div>
           <div className="about-card">
@@ -56,21 +59,25 @@ function About() {
       {/* RIGHT - Text */}
       <div className="about-right">
         <p className="about-tag">— Who I Am</p>
-        <h2>About <span>Me</span></h2>
+        <h2>
+          About <span>Me</span>
+        </h2>
 
         <p>
-          I am a B.Tech Computer Science and Engineering student at ITM College,
-          with a strong interest in full-stack web development. I specialize in
-          the MERN stack and enjoy building scalable, real-world applications
-          with clean and maintainable code.
+          I am a B.Tech Computer Science and Engineering student at Shri Ram
+          Group Of College,Muzaffarnagar with a strong interest in full-stack
+          web development. I specialize in the MERN stack and enjoy building
+          scalable, real-world applications with clean and maintainable code.
         </p>
 
         <p>
-          Along with web development, I have a solid foundation in Java, C++,
-          Data Structures and problem solving. I have worked on multiple projects
-          including a MERN Portfolio, Simon Game and a Complexity Analyzer.
-          I am continuously learning new technologies and improving my skills
-          to grow as a professional software developer.
+          Along with web development, I have a solid foundation in Java, Data
+          Structures and problem solving. I have worked on multiple projects
+          AI SaaS Exam Preparation
+          Platform,Wanderlust -Travel & Stay Booking Platform and Zerodha Clone-
+          A Full Stack Trading Platform. I am continuously learning new
+          technologies and improving my skills to grow as a professional
+          software developer.
         </p>
 
         <div className="about-highlights">
@@ -88,9 +95,10 @@ function About() {
           </div>
         </div>
 
-        <a href="#contact" className="btn primary">Let's Connect 🤝</a>
+        <a href="#contact" className="btn primary">
+          Let's Connect 🤝
+        </a>
       </div>
-
     </section>
   );
 }

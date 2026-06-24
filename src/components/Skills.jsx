@@ -8,7 +8,6 @@ const skills = [
     title: "Programming Languages",
     icon: "💻",
     items: [
-      { name: "C++", icon: <SiCplusplus color="#00599C" /> },
       { name: "Java", icon: <FaJava color="#f89820" /> },
       { name: "JavaScript", icon: <SiJavascript color="#F7DF1E" /> },
     ]

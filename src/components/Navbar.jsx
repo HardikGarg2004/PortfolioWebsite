@@ -41,8 +41,8 @@ function Navbar() {
 
       <div className="nav-left-section">
         <div className="logo">
-          <span className="logo-first">Pushkar</span>
-          <span className="logo-last"> Dixit</span>
+          <span className="logo-first">Hardik</span>
+          <span className="logo-last"> Garg</span>
         </div>
       </div>
 
@@ -55,7 +55,7 @@ function Navbar() {
         <a href="#projects" className={"nav-item" + (active === "projects" ? " active" : "")} onClick={() => setOpen(false)}>Projects</a>
         <a href="#certificates" className={"nav-item" + (active === "certificates" ? " active" : "")} onClick={() => setOpen(false)}>Certificates</a>
         <a href="#contact" className={"nav-item" + (active === "contact" ? " active" : "")} onClick={() => setOpen(false)}>Contact</a>
-        <a href="/resume.pdf" className="resume-btn" target="_blank" rel="noreferrer">Resume</a>
+        <a href="/HardikGargResume.pdf" className="resume-btn" target="_blank" rel="noreferrer">Resume</a>
       </div>
 
       <div

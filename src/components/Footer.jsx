@@ -28,8 +28,8 @@ function Footer() {
         {/* LEFT */}
         <div className="footer-left">
           <h3>
-            <span className="footer-logo-first">Pushkar</span>
-            <span className="footer-logo-last"> Dixit</span>
+            <span className="footer-logo-first">Hardik</span>
+            <span className="footer-logo-last"> Garg</span>
           </h3>
           <p className="footer-role">MERN Stack Developer</p>
           <p className="footer-tagline">Building modern web experiences with clean code.</p>
@@ -54,16 +54,16 @@ function Footer() {
         {/* RIGHT */}
         <div className="footer-right">
           <p className="footer-heading">Connect</p>
-          <a href="https://github.com/Pushkar-DIXIT" target="_blank" rel="noreferrer">
+          <a href="https://github.com/HardikGarg2004" target="_blank" rel="noreferrer">
             🐙 GitHub
           </a>
-          <a href="https://www.linkedin.com/in/pushkar-dixit-502bb4327" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/Hardik-garg251305" target="_blank" rel="noreferrer">
             💼 LinkedIn
           </a>
-          <a href="mailto:pushkardixit561@gmail.com">
+          <a href="mailto:hardikkumargarg24@gmail.com">
             ✉️ Email
           </a>
-          <a href="/resume.pdf" target="_blank" rel="noreferrer">
+          <a href="/HardikGargResume.pdf" target="_blank" rel="noreferrer">
             📄 Resume
           </a>
         </div>
@@ -71,7 +71,7 @@ function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <p>© {new Date().getFullYear()} Pushkar Dixit. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Hardik Garg. All rights reserved.</p>
         <p className="footer-credit">Made with ❤️ using React</p>
       </div>
     </footer>

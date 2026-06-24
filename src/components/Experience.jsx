@@ -38,15 +38,17 @@ function Experience() {
             <div className="exp-header">
               <div>
                 <h3>Full Stack Developer</h3>
-                <p className="exp-company">Scalixity Pvt. Ltd.</p>
+                <p className="exp-company">
+Sysslan IT Solutions</p>
               </div>
               <span className="exp-badge">Internship</span>
             </div>
 
-            <p className="exp-date">📅 March 2026 — May 2026</p>
+            <p className="exp-date">📅 June 2026 — July 2026</p>
 
             <p className="exp-desc">
-              Worked as a Full Stack Developer at Scalixity Pvt. Ltd., contributing
+              Worked as a Full Stack Developer at 
+Sysslan IT Solutions, contributing
               to real-world web applications. Handled both frontend and backend development,
               collaborating with the team to deliver clean, scalable and production-ready solutions.
             </p>
