@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import profileImg from "../assets/profile.jpg";
+import profileImg from "../assets/Hardik3.png";
 import "./Home.css";
 
 function Home() {
@@ -51,13 +51,13 @@ function Home() {
         <div className="home-buttons">
           <a href="#contact" className="btn primary">Hire Me 🚀</a>
           <a href="#projects" className="btn outline">View Projects</a>
-          <a href="/resume.pdf" className="btn ghost" target="_blank" rel="noreferrer">Resume 📄</a>
+          <a href="/HardikGargResume.pdf" className="btn ghost" target="_blank" rel="noreferrer">Resume 📄</a>
         </div>
       </div>
 
       <div className="home-right">
         <div className="image-ring">
-          <img src={profileImg} alt="Pushkar Dixit" />
+          <img src={profileImg} alt="Hardik Garg" />
         </div>
         <div className="glow-circle"></div>
       </div>
