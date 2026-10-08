@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import "./Skills.css";
-import { SiCplusplus, SiJavascript, SiReact, SiHtml5, SiCss, SiNodedotjs, SiExpress, SiMongodb, SiMysql, SiGit, SiGithub, SiPostman, SiVscodium } from "react-icons/si";
+import {SiJavascript, SiReact, SiHtml5, SiCss, SiNodedotjs, SiExpress, SiMongodb, SiMysql, SiGit, SiGithub, SiPostman, SiVscodium } from "react-icons/si";
 import { FaJava, FaDatabase, FaServer, FaCode } from "react-icons/fa";
 
 const skills = [
